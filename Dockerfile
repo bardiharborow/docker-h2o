@@ -2,8 +2,8 @@ FROM alpine:3.10
 
 LABEL maintainer="Bardi Harborow <bardi@bardiharborow.com>"
 
-ENV H2O_VERSION 2.2.5
-ENV H2O_DOWNLOAD_SHA256 eafb40aa2d93b3de1af472bb046c17b2335c3e5a894462310e1822e126c97d24
+ENV H2O_VERSION 2.3.0-beta2
+ENV H2O_DOWNLOAD_SHA256 e3f745a645fa7a4bf6629914b967e24e1522f65ea17c07d9d16d8d2223fc03c5
 
 RUN \
         # create user and group
